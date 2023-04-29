@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Dark mode */
+
+  html[data-theme='dark'] .App {
+    background-color: #364739
+  }
+
+  html[data-theme='dark'] .header {
+    background-color: #526d58;
+  }
+
+  html[data-theme='dark'] .footer {
+    background-color: #526d58;
+  }
+
+  html[data-theme='dark'] .aboutList {
+    background-color: #D9D9D9;
+  }
+
+  html[data-theme='dark'] .skillList {
+    background-color: #D9D9D9;
+  }
+
+  html[data-theme='dark'] .projectList {
+    background-color: #D9D9D9;
+  }
+
+  html[data-theme='dark'] .aboutList:before {
+    background: linear-gradient(130deg, #57BC90 10%, #526d58 100%);
+  }
+
+  html[data-theme='dark'] .skillList:before {
+    background: linear-gradient(130deg, #57BC90 10%, #526d58 100%);
+  }
+
+  html[data-theme='dark'] .projectList:before {
+    background: linear-gradient(130deg, #57BC90 10%, #526d58 100%);
+  }
+
+  html[data-theme='dark'] .aboutList h2 {
+    color: #015249;
+  }
+
+  html[data-theme='dark'] .skillList h2 {
+    color: #015249;
+  }
+
+  html[data-theme='dark'] .projectList h2 {
+    color: #015249;
+  }
+
+  html[data-theme='dark'] h2 {
+    color: #ffffff;
+  }
+

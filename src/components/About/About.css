@@ -1,0 +1,80 @@
+.aboutBox {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutContent h2 {
+    color: #015249;
+}
+
+.aboutList {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: #015249;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    column-gap: 20px;
+    row-gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+    max-width: 850px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 65px 10px 20px;
+    transform: translate(-0%, -0%);
+}
+
+.aboutList:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 25px 25px 0px 0px;
+    background-color: #F9CF00;
+    background: linear-gradient(130deg, #77C9D4 10%, #57BC90 100%);
+}
+
+.introAbout {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+    row-gap: 15px;
+}
+
+.introBox {
+    width: 50%;
+}
+
+.introBox:nth-child(2), .introBox:nth-child(4) {
+    align-self: flex-end;
+    text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+
+    .introBox  {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .introBox  {
+        width: 95%;
+    }
+}

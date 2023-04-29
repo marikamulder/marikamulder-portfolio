@@ -1,0 +1,127 @@
+.projetBox {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+.projetContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.projetContent h2 {
+    color: #015249;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    color: #015249;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    column-gap: 20px;
+    row-gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+    max-width: 850px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    padding: 65px 10px 20px;
+    transform: translate(-0%, -0%);
+}
+
+.projectList:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 25px 25px 0px 0px;
+    background-color: #F9CF00;
+    background: linear-gradient(130deg, #77C9D4 10%, #57BC90 100%);
+}
+
+.projectList img {
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-left: 15px;
+
+    max-width: 350px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.projectInfo {
+    max-width: 435px;
+}
+
+.projectInfo h2 {
+    margin: 0px;
+}
+
+.projectInfo svg {
+    width: 25px;
+    height: 25px;
+}
+
+.projectInfo a {
+    color: #77C9D4;
+    text-decoration: none;
+}
+
+.projectInfo a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.projectLinkButton {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.projectLinkButton button {
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #77C9D4;
+    color: #015249;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.projectLinkButton button:hover, .projectLinkButton button:hover a {
+    background-color: #57BC90;
+    cursor: pointer;
+    color: white;
+}
+
+.projectLinkButton button a {
+    color: #015249;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 880px) {
+
+    .projectList  {
+        justify-content: center;
+    }
+    .projectList img {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .projectInfo {
+        text-align: center;
+    }
+
+    .projectLinkButton {
+        justify-content: center;
+    }
+}

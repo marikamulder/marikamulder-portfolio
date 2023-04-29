@@ -1,0 +1,14 @@
+.hashLinks {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 25px;
+    list-style-type: none;
+}
+
+.hashLinks li:hover {
+    color: #57BC90;
+    cursor: pointer;
+}
