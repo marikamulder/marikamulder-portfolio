@@ -10,7 +10,7 @@ function Footer() {
             </div>
             <div className='socialLinks'>
                 <div><a href="https://github.com/marikamulder"><FaGithub/></a></div>
-                <div><a href="https://www.linkedin.com/in/marika-mulder-9291b2250/"><FaLinkedin/></a></div>
+                <div><a href="https://www.linkedin.com/in/marika-mulder/"><FaLinkedin/></a></div>
             </div>
         </footer>
     );
